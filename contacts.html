@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact me!</title>
+</head>
+
+<style media="screen">
+  fieldset {
+    display: inline-block;
+    background-color: solid white ;
+    background-size: auto;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-top: 0.35em;
+    padding-bottom: 0.625em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    border: 2px groove (internal value);
+  }
+
+  legend {
+    background-color: aquamarine;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 25px;
+    font-style: normal;
+    border-color: black;
+    border-radius: 10px 100px / 120px;
+  }
+</style>
+
+
+<body>
+
+  <ul>
+    <li>Mail me: <strong><u>segizemozdogan@gmail.com</u></strong></li>
+    <li>Phone <strong><u>+905555555555</u></strong></li>
+    <li><a href="https://www.instagram.com/">Instagram</a></li>
+    <li><a href="https://www.linkedin.com/in/gizem-%C3%B6-762979240/">Linkedin</a></li>
+    <li><strong>Mersin/TURKEY</strong></li>
+  </ul>
+</body>
+
+<form class="form-example" action="index.html" method="post">
+
+  <fieldset>
+    <legend>Get to know you!</legend>
+    <label for="Name">First Name: </label>
+    <input type="text" id="name" name="name"><br><br>
+    <label for="Surname">Last Name: </label>
+    <input type="text" id="surname" name="surname"><br><br>
+    <label for="Mail">Mail Address: </label>
+    <input type="email" id="email"><br><br>
+    <label for="birthday">Your Birthday</label>
+    <input type="date" name="date" id="birthday"><br><br>
+    <label for="phone">Telephone: </label>
+    <input type="tel" name="phone" id="phone" ><br><br>
+    <label for="password">Password: </label>
+    <input type="password" name="password">
+    <br><br><br>
+
+    <legend>Gender</legend>
+    <div>
+      <label for="Female">Female</label>
+      <input type="radio" id="Female" name="Gender" value="Female"><br>
+    </div>
+    <div>
+      <label for="Male">Male</label>
+      <input type="radio" id="Male" name="Gender" value="Male"><br>
+    </div>
+    <div>
+      <label for="others">Prefer not to say</label>
+      <input type="radio" id="others" name="Gender" value="Prefer not to say"><br>
+    </div>
+
+  </fieldset>
+  <br>
+  <br>
+  <fieldset>
+    <legend>What are your hobbies?</legend>
+
+      <label for="music">Music</label>
+      <input type="checkbox" name="hobbies" id="music" value="music"><br>
+      <label for="painting">Painting</label>
+      <input type="checkbox" name="hobbies" id="painting" value="painting"><br>
+      <label for="Books">Books</label>
+      <input type="checkbox" name="hobbies" id="books" value="books"><br>
+      <label for="dancing">Dancing</label>
+      <input type="checkbox" name="hobbies" id="dancing" value="dancing">
+
+  </fieldset>
+<br>
+<br>
+  <fieldset>
+    <legend>Languages</legend>
+    <div>
+      <label for="lang">English</label>
+      <input type="checkbox" name="Lang" id="lang" value="English">
+      <label for="lang">Turkish</label>
+      <input type="checkbox" name="Lang" id="lang" value="Turkish">
+      <label for="lang">Spanish</label>
+      <input type="checkbox" name="Lang" id="lang" value="Spanish">
+      <label for="lang">German</label>
+      <input type="checkbox" name="Lang" id="lang" value="German">
+    </div>
+<br>
+  </fieldset>
+<br>
+<br>
+<br>
+  <fieldset>
+    <div>
+      <label for="pick_a_color">Pick a color</label>
+      <input type="color" name="pick_a_color" value="">
+    </div>
+  </fieldset>
+  <br>
+  <br>
+  <input type="reset" value="Reset"><br><br>
+  <input type="image" value="Submit" src="log_in_2.png" alt="Log in:)" width="4%" height="1%">
+
+</form>
+
+</html>
